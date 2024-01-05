@@ -18,10 +18,10 @@ class Solution(object):
 
         return stack == []
 
-test_case = input("s = ")
 sol = Solution()
-result = sol.isValid(test_case)
-print(f"{'true' if result else 'false'}")
+print(sol.isValid("()"))        
+print(sol.isValid("()[]{}"))   
+print(sol.isValid("(]")) 
     
 
 
